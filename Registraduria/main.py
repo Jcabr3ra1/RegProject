@@ -19,6 +19,8 @@ cors = CORS(app)
 
 miControladorCandidato = ControladorCandidato()
 miControladorMesa = ControladorMesa()
+miControladorPartido = ControladorPartido()
+miControladorResultado = ControladorResultado()
 
 #########################Servicios Partido###################################
 @app.route("/partidos", methods=['GET'])
